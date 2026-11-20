@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="28dp" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#0F0F0F">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="网速悬浮窗 V3.1 Netflix屏显版" android:textSize="24sp" android:textColor="#FFFFFF"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="仅2行：分辨率(推测) + 码率 | GitHub自动编译" android:textColor="#FFEB3B" android:textSize="12sp" android:layout_marginBottom="16dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnOverlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. 授予悬浮窗权限"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnUsage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. 授予使用情况访问权限" android:layout_marginTop="10dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnStart" style="@style/Widget.Material3.Button.TonalButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="▶ 启动悬浮窗" android:layout_marginTop="20dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnStop" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="停止悬浮窗"/>
+</LinearLayout>
